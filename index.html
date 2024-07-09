@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EazyIoT Documentation</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    /* Custom styles can be added here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .sidebar-nav {
+      max-height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      background-color: #3a3a3a;
+      color: white;
+      height: 50px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  
+  <script>
+    window.$docsify = {
+      name: 'Getting started',
+      repo: 'https://github.com/your-repo',
+      loadSidebar: true,
+      coverpage: true,
+      search: 'auto',
+      subMaxLevel: 2,
+      executeScript: true,
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (content) {
+            return content + '\n\n[Back to top](#top)\n';
+          });
+        }
+      ]
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>

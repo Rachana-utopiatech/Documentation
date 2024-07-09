@@ -1,0 +1,19 @@
+/* custom.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  .sidebar-nav {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .navbar {
+    background-color: #333333;
+    color: white;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
