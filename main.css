@@ -1,19 +1,78 @@
-/* custom.css */
+/* Custom styles for EazyIoT Documentation */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-  }
-  .sidebar-nav {
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .navbar {
-    background-color: #333333;
-    color: white;
-  }
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #343a40;
+  color: white;
+  height: 50px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5em;
+}
+
+.sidebar-nav {
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.cover {
+  background: url('path-to-your-cover-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin: 10px 0;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar-nav a:hover {
+  text-decoration: underline;
+}
+
+.cover h1 {
+  margin: 0;
+  font-size: 3em;
+}
