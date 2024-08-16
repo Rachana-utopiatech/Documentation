@@ -2,5 +2,5 @@
 
 > Simple and powerful documentation.
 
-[Get Started](/getting-started.md)
+[Get Started](/README.md)
 [GitHub](https://github.com/your-repo)
